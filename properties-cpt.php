@@ -29,7 +29,7 @@
 
 
 //Registers the Product's post type
-function create_post_type() {
+function create_properties_post_type() {
     $labels = array(
         'name'               => 'Properties',
         'singular_name'      => 'Property',
@@ -68,7 +68,7 @@ function create_post_type() {
 }
 
 
-add_action( 'init', 'create_post_type' );
+add_action( 'init', 'create_properties_post_type' );
 
 //Registers the Product's post type
 function create_news_post_type() {
@@ -113,7 +113,7 @@ add_action( 'init', 'create_news_post_type' );
 
 // Flush rewrite rules to add "review" as a permalink slug
 function my_rewrite_flush() {
-    create_post_type();
+    create_properties_post_type();
     create_news_post_type();
     flush_rewrite_rules();
 }
