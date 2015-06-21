@@ -29,9 +29,9 @@
 
 
 
-include ['prperties.php',
-			'costar-feed.php'
-		  ];
+include 'properties.php';
+include	'costar-feed.php';
+
 
 
 // Flush rewrite rules to add "review" as a permalink slug
