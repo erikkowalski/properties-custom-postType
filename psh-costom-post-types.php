@@ -34,7 +34,7 @@ include	'costar-feed.php';
 
 
 
-// Flush rewrite rules to add "review" as a permalink slug
+// Flush rewrite rules to add tbe "$post-type-name" as a permalink slug
 function my_rewrite_flush() {
     create_properties_post_type();
     create_costar_news_post_type();
