@@ -44,9 +44,9 @@ function my_rewrite_flush() {
     create_properties_post_type();
     create_costar_news_post_type();
 	 create_m_and_a_post_type();
-	 create_costar_business_post_type();
-	 create_costar_economic_post_type();
-	 create_costar_financial_post_type();
+	 create_business_post_type();
+	 create_economic_post_type();
+	 create_financial_post_type();
     flush_rewrite_rules();
 }
 register_activation_hook( __FILE__, 'my_rewrite_flush' );

@@ -30,7 +30,7 @@ function create_business_post_type() {
 		'capability_type'    => 'post',
 		'has_archive'        => true,
 		'hierarchical'       => false,
-		'menu_position'      => 5,
+		'menu_position'      => 4,
 		'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt' ),
 		'taxonomies'         => array( 'category', 'post_tag' )
 	);
