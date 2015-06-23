@@ -32,7 +32,8 @@
 include 'includes/properties.php'; // <-- create_properties_post_type();
 include	'includes/costar-feed.php'; // <-- create_costar_news_post_type();
 include	'includes/costar-boston-feed.php'; // <-- create_costar_boston_post_type();
-include	'includes/costar-m-and-a-feed.php'; // <-- create_costar_m_a_post_type();
+include	'includes/reuters-m-and-a-feed.php'; // <-- create_costar_m_a_post_type();
+include	'includes/reuters-business-feed.php'; // <-- create_costar_m_a_post_type();
 
 
 
