@@ -29,8 +29,9 @@
 
 
 
-include 'properties.php';
-include	'costar-feed.php';
+include 'properties.php'; // <-- create_properties_post_type();
+include	'costar-feed.php'; // <-- create_costar_news_post_type();
+include	'costar-boston-feed.php'; // <-- create_costar_boston_post_type();
 
 
 
