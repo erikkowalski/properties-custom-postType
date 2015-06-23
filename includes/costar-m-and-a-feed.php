@@ -1,10 +1,10 @@
 <?php
 //Registers the Product's post type
-function create_costar_news_post_type() {
+function create_m_and_a_post_type() {
 	$labels = array(
-		'name'               => 'Costar News',
+		'name'               => 'M&A News',
 		'singular_name'      => 'News Story',
-		'menu_name'          => 'Costar News',
+		'menu_name'          => 'M&A News',
 		'name_admin_bar'     => 'News Story',
 		'add_new'            => 'Add New',
 		'add_new_item'       => 'Add New News Story',
@@ -35,9 +35,9 @@ function create_costar_news_post_type() {
 		'taxonomies'         => array( 'category', 'post_tag' )
 	);
 
-	register_post_type( 'costar_news', $args );
+	register_post_type( 'm_and_a', $args );
 }
 
-add_action( 'init', 'create_costar_news_post_type' );
+add_action( 'init', 'create_m_and_a_post_type' );
 
 ?>

@@ -2,9 +2,9 @@
 //Registers the Product's post type
 function create_costar_boston_post_type() {
 	$labels = array(
-		'name'               => 'News',
+		'name'               => 'Boston News',
 		'singular_name'      => 'News Story',
-		'menu_name'          => 'News',
+		'menu_name'          => 'Boston News',
 		'name_admin_bar'     => 'News Story',
 		'add_new'            => 'Add New',
 		'add_new_item'       => 'Add New News Story',
