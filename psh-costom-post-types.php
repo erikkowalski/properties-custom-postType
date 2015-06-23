@@ -29,9 +29,9 @@
 
 
 
-include 'properties.php'; // <-- create_properties_post_type();
-include	'costar-feed.php'; // <-- create_costar_news_post_type();
-include	'costar-boston-feed.php'; // <-- create_costar_boston_post_type();
+include 'includes/properties.php'; // <-- create_properties_post_type();
+include	'includes/costar-feed.php'; // <-- create_costar_news_post_type();
+include	'includes/costar-boston-feed.php'; // <-- create_costar_boston_post_type();
 
 
 
